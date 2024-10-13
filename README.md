@@ -1,1 +1,3 @@
-# Q1Project
+ - This is a Laboratory Activity on Modules 1, 2, 3, 4, and 5.
+ - The topics covered in this activity are/is all topics.
+ - https://github.com/MendradoMCanusaVIII/Q1Project
