@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    position: sticky;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    text-shadow: 10px;
+}
+  
+.logo {
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+}
+  
+  /* Navbar */
+  
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: .3s;
+}
+  
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: .3s;
+}
+  
+.navbar a:hover::before {
+    width: 100%;
+}
+
+/* Body */
+
+.main {
+    margin-top: 7.5em;
+    padding-left: 7em;
+    padding-right: 7em;
+    float: left;
+
+}
+
+.content {
+    padding-bottom: 2em;
+}
+
+div:only-child {
+    font-weight: 200;
+    padding-bottom: 2em;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: bisque;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-weight: 250;
+    text-align: justify;
+    text-overflow: ellipsis;
+    word-spacing: 0.75em;
+    padding-right: 8em;
+}
+
+h2 {
+    padding-top: 2em;
+}
+
+
+.sprites {
+    padding-top: 12em;
+}
+
+#portrait {
+    transform: rotate(180deg);
+    position: relative;
+    top: -5em;
+    margin-right: 6em;
+    margin-left: 10em;
+    border-radius: 6%;
+    margin: 2px beige;
+    float: right;
+    text-align: right;
+    width: 24em;
+    height: 32em;
+    border: 2px beige;
+}
+
+/* Sprites */
+
+h2 {
+    font-weight: 300;
+    padding: 4em;
+}
+
+a[href="https://instagram.com"] {
+	background: url('../aboutme/images/download.png') no-repeat -1141px -457px;
+    position: relative;
+    float: left;
+    left: 12em;
+	width: 64px;
+	height: 64px;
+}
+
+a[href="https://facebook.com"] {
+	background: url('../aboutme/images/download.png') no-repeat -1457px -306px;
+    position: relative;
+    float: left;
+    left: 16em;
+	width: 38px;
+	height: 64px;
+}
+
+a[href="https://instagram.com"]:hover {
+	background: url('../aboutme/images/download.png') no-repeat -1444px -154px;
+	width: 64px;
+	height: 64px;
+}
+
+a[href="https://facebook.com"]:hover {
+	background: url('../aboutme/images/download.png') no-repeat -857px -312px;
+	width: 28px;
+	height: 52px;
+}
